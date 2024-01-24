@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+    padding: 15px;
+    width: 40vw;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+
+#habitName{
+    max-width: 2000px;
+}
+
+#newHabitForm > button{
+    max-width: 50px;
+    background-color: blue;
+}
+
